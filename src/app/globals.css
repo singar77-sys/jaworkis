@@ -170,6 +170,11 @@ body {
   overflow-x: hidden;
 }
 
+/* --- Logo: white in dark mode --- */
+.dark .logo-img {
+  filter: brightness(0) invert(1);
+}
+
 /* --- Reduced Motion --- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
