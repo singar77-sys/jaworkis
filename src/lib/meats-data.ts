@@ -84,7 +84,7 @@ export const meatCategories: MeatCategory[] = [
       "Wings",
     ],
     note: "Full turkeys around holidays or by special order. Ground chicken with 24 hours notice.",
-    image: "/images/poultry.png",
+    image: "/images/poultry.webp",
   },
   {
     id: "sausage",
@@ -147,6 +147,6 @@ export const meatCategories: MeatCategory[] = [
       "Mild Italian",
       "Roasted Garlic",
     ],
-    image: "/images/smokies.png",
+    image: "/images/smokies.webp",
   },
 ];
