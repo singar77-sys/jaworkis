@@ -56,7 +56,7 @@ export function Nav() {
             alt="Jaworski Meats logo — pig and chicken silhouette"
             width={44}
             height={44}
-            className="w-11 h-11 brightness-0 dark:invert"
+            className="w-11 h-11 dark:brightness-0 dark:invert"
             priority
           />
           <span className="text-display text-xl tracking-wide text-primary hidden sm:block" aria-hidden="true">
