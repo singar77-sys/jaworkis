@@ -10,7 +10,7 @@ import { CTAButton } from "./CTAButton";
 const altDescriptions: Record<string, string> = {
   beef: "Fresh marbled ribeye held by butcher hands at Jaworski Meats — cut to order from whole primals",
   pork: "Fresh-cut pork chops and tenderloin from Daisyfield Farms at Jaworski Meats",
-  sausage: "Handmade Polish kielbasa being linked by hand at Jaworski Meats — a Cleveland tradition since 1935",
+  sausage: "Sausage and kielbasa selection at Jaworski Meats — handmade in-house since 1935",
   burgers: "Hand-formed flavored burger patties made in-house daily at Jaworski Meats with custom spice blends",
 };
 

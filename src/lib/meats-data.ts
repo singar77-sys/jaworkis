@@ -84,6 +84,7 @@ export const meatCategories: MeatCategory[] = [
       "Wings",
     ],
     note: "Full turkeys around holidays or by special order. Ground chicken with 24 hours notice.",
+    image: "/images/poultry.png",
   },
   {
     id: "sausage",
@@ -106,7 +107,7 @@ export const meatCategories: MeatCategory[] = [
       "Smoked Polish Kielbasa",
       "Smoked Slovenian",
     ],
-    image: "/images/kielbasa-linking.jpg",
+    image: "/images/sausage-presentation.jpg",
   },
   {
     id: "burgers",
@@ -146,5 +147,6 @@ export const meatCategories: MeatCategory[] = [
       "Mild Italian",
       "Roasted Garlic",
     ],
+    image: "/images/smokies.png",
   },
 ];
