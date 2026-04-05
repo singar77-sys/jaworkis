@@ -1,0 +1,150 @@
+export interface MeatCategory {
+  id: string;
+  name: string;
+  description: string;
+  items: string[];
+  note?: string;
+  image?: string;
+}
+
+export const meatCategories: MeatCategory[] = [
+  {
+    id: "beef",
+    name: "Beef",
+    description:
+      "Sides of cattle from Bristolville, Ohio. Traditional Polish butchery. Cut to order. You will marvel at the marble.",
+    items: [
+      "Aged Prime Rib",
+      "Bone-in Chuck Roast",
+      "Bone-in Sirloin Steak",
+      "Boneless Beef Short Ribs",
+      "Boneless Chuck Roast",
+      "Brisket",
+      "Corned Beef Flats",
+      "English Cut Roast",
+      "Fillet",
+      "Flank Steak",
+      "Marinated London Broil",
+      "Porterhouse",
+      "Prime Rib",
+      "Rib Steak (Bone-in)",
+      "Round Steak",
+      "Shank",
+      "Sirloin Steak",
+      "Sirloin Tip Roast",
+      "Skirt Steak",
+      "Strip Steak",
+      "T-Bone Steak",
+      "Tenderloin",
+      "Top Round London Broil",
+      "Tri-tip Roast",
+      "Whole Corned Beef Brisket",
+    ],
+    note: "Custom cuts available. Call for current prices.",
+    image: "/images/ribeye-hands-raw.jpg",
+  },
+  {
+    id: "pork",
+    name: "Pork",
+    description:
+      "From Daisyfield Farms in Sandusky, Ohio. Trimmed to perfection. You\u2019ll understand a new meaning of tender.",
+    items: [
+      "Baby Back Ribs",
+      "Bacon",
+      "Bone-in Loin",
+      "Boneless Butterfly Chops",
+      "Boneless Loin",
+      "Butt / Shoulder",
+      "Center Cut Chops",
+      "Center Cut Smoked Chops",
+      "City Chicken",
+      "Country Western Ribs",
+      "Sirloin Cut Chops",
+      "Spare Ribs",
+      "St. Louis Ribs",
+      "Steaks",
+      "Tenderloin",
+    ],
+    note: "Spare & St. Louis ribs \u2014 call ahead. Whole pigs available by special order.",
+    image: "/images/fresh-cut-pork.jpg",
+  },
+  {
+    id: "poultry",
+    name: "Poultry",
+    description:
+      "From Gerber Farms in Amish country near Canton. Natural, hormone-free, free-range. Breasts run 2\u20132.5 lbs each.",
+    items: [
+      "Bone-in Chicken Breast",
+      "Boneless, Skinless Chicken Breast",
+      "Eggs",
+      "Fryer Chickens",
+      "Soup Chickens",
+      "Thighs",
+      "Whole Chickens",
+      "Wings",
+    ],
+    note: "Full turkeys around holidays or by special order. Ground chicken with 24 hours notice.",
+  },
+  {
+    id: "sausage",
+    name: "Sausage & Kielbasa",
+    description:
+      "Award-winning fresh Polish kielbasa. A Cleveland staple for 90 years. The recipe hasn\u2019t changed.",
+    items: [
+      '"World Famous Fresh" Polish Kielbasa',
+      "Apple Maple Chicken Sausage",
+      "Fresh & Smoked Bratwurst",
+      "Fresh & Smoked Chicken Sausage",
+      "Fresh Beer Brats",
+      "Fresh Hot Italian",
+      "Fresh Mild Italian",
+      "Fresh Sweet Italian",
+      "Sicilian Orange & Lemon",
+      "Smoked Andouille",
+      "Smoked Chicken Tomato Basil",
+      "Smoked Hungarian",
+      "Smoked Polish Kielbasa",
+      "Smoked Slovenian",
+    ],
+    image: "/images/kielbasa-linking.jpg",
+  },
+  {
+    id: "burgers",
+    name: "Flavored Burgers",
+    description:
+      "Made in-house daily. Grass-fed ground chuck, elk, and bison. They sell out fast. Fri & Sat are the best days.",
+    items: [
+      "Asiago",
+      "Bacon Onion",
+      "Cajun Blue Cheese",
+      "Dirty Burger",
+      "Gyro",
+      "Jalape\u00f1o",
+      "Kielbasa",
+      "Mesquite",
+      "Mushroom and Swiss",
+      "Steak with Cheddar Cheese",
+      "Steak",
+      "Sweet Onion",
+    ],
+    image: "/images/burger-patties-handformed.jpg",
+  },
+  {
+    id: "smokies",
+    name: "Smokies",
+    description:
+      "Beef, chicken, or pork sticks. Smoked in-house. No organ meat. No fillers. New flavors always in rotation.",
+    items: [
+      "Beef Smokie",
+      "Bold and Tangy",
+      "Buffalo",
+      "Fire",
+      "Honey",
+      "Hot Polish",
+      "Jalape\u00f1o and Cheese",
+      "Mango Habanero",
+      "Mild Italian",
+      "Roasted Garlic",
+    ],
+  },
+];
