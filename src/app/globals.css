@@ -30,29 +30,29 @@
   --shadow-lg: 0 8px 30px rgba(26, 20, 16, 0.12);
 }
 
-/* --- Dark Mode (After Hours) --- */
+/* --- Dark Mode (Browns Mode) --- */
 .dark {
-  --bg: #1A1410;
-  --bg-alt: #231D17;
-  --fg: #F5F0E8;
-  --fg-muted: #A89B8C;
-  --primary: #C41E3A;
-  --primary-hover: #D42A46;
-  --secondary: #D4C5A9;
-  --accent: #D4A754;
-  --accent-light: #E8C36E;
-  --tape: #4A4030;
-  --tape-text: #C4B48A;
-  --cta: #DC143C;
-  --cta-hover: #E8213F;
+  --bg: #311D00;
+  --bg-alt: #3D2400;
+  --fg: #FFFFFF;
+  --fg-muted: #D4AA7D;
+  --primary: #FF3C00;
+  --primary-hover: #FF5520;
+  --secondary: #FFFFFF;
+  --accent: #FF3C00;
+  --accent-light: #FF6633;
+  --tape: #4A2E00;
+  --tape-text: #FF8855;
+  --cta: #FF3C00;
+  --cta-hover: #FF5520;
   --cta-text: #FFFFFF;
-  --border: #3A3028;
-  --card: #231D17;
-  --card-border: #3A3028;
-  --paper-opacity: 0.04;
+  --border: #5C3810;
+  --card: #3D2400;
+  --card-border: #5C3810;
+  --paper-opacity: 0.03;
   --paper-blend: screen;
-  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* --- Tailwind Theme --- */
