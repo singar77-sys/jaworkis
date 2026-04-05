@@ -52,7 +52,7 @@ export function Nav() {
         {/* Logo */}
         <a href="/" className="relative z-10 flex items-center gap-3 min-h-[44px]" aria-label="Jaworski Meats — Home">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             alt="Jaworski Meats logo — pig and chicken silhouette"
             width={44}
             height={44}

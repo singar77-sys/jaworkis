@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Jaworski Meats logo — pig and chicken silhouette, family butcher since 1935"
               width={36}
               height={36}
