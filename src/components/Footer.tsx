@@ -13,7 +13,7 @@ export function Footer() {
               alt="Jaworski Meats logo — pig and chicken silhouette, family butcher since 1935"
               width={36}
               height={36}
-              className="w-9 h-9"
+              className="w-9 h-9 dark:brightness-0 dark:invert"
             />
             <span className="text-display text-lg text-primary" aria-hidden="true">
               Jaworski Meats
