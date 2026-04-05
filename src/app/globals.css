@@ -106,7 +106,7 @@ body {
 }
 
 .dark .paper-texture::before {
-  filter: invert(1);
+  display: none;
 }
 
 /* --- Tape Element --- */
