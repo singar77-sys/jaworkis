@@ -5,29 +5,29 @@
    1935 meets 2035. Butcher paper + precision.
    ============================================ */
 
-/* --- Light Mode (Butcher Paper) --- */
+/* --- Light Mode (Scarlet & Gray) --- */
 :root {
-  --bg: #F5F0E8;
-  --bg-alt: #EDE7DA;
-  --fg: #1A1410;
-  --fg-muted: #5C5347;
-  --primary: #8B1A1A;
-  --primary-hover: #A52020;
-  --secondary: #2C2420;
-  --accent: #B8860B;
-  --accent-light: #D4A754;
-  --tape: #E8D5A3;
-  --tape-text: #5C5347;
-  --cta: #DC143C;
-  --cta-hover: #E8213F;
+  --bg: #F6F7F8;
+  --bg-alt: #EFF1F2;
+  --fg: #212325;
+  --fg-muted: #646A6E;
+  --primary: #BA0C2F;
+  --primary-hover: #70071C;
+  --secondary: #3F4443;
+  --accent: #BA0C2F;
+  --accent-light: #70071C;
+  --tape: #DFE3E5;
+  --tape-text: #3F4443;
+  --cta: #BA0C2F;
+  --cta-hover: #70071C;
   --cta-text: #FFFFFF;
-  --border: #D4C5A9;
-  --card: #FDFAF4;
-  --card-border: #E8DFD0;
-  --paper-opacity: 0.08;
+  --border: #CFD4D8;
+  --card: #FFFFFF;
+  --card-border: #DFE3E5;
+  --paper-opacity: 0.06;
   --paper-blend: multiply;
-  --shadow: 0 1px 3px rgba(26, 20, 16, 0.08);
-  --shadow-lg: 0 8px 30px rgba(26, 20, 16, 0.12);
+  --shadow: 0 1px 3px rgba(33, 35, 37, 0.08);
+  --shadow-lg: 0 8px 30px rgba(33, 35, 37, 0.12);
 }
 
 /* --- Dark Mode (Browns Mode) --- */
