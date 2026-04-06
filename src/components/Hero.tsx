@@ -11,15 +11,15 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/tomahawk-steaks-trio.webp"
-          alt="Three tomahawk ribeyes lined up on a butcher block at Jaworski Meats — cut to order since 1935"
+          src="/images/ribeye-hands-raw.webp"
+          alt="Butcher holding a thick-cut bone-in ribeye at Jaworski Meats — cut to order since 1935"
           fill
           className="object-cover"
           priority
           sizes="100vw"
           quality={85}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-secondary/80 via-secondary/50 to-secondary/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/80" />
       </div>
 
       {/* Content */}
