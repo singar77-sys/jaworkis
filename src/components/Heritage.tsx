@@ -101,16 +101,16 @@ export function Heritage() {
               </div>
             </ScrollReveal>
 
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 gap-3">
               <ScrollReveal delay={0.3}>
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5 h-full">
+                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
                     src="/images/mark-dorothy-festival.webp"
                     alt="Mark Jaworski and Dorothy Jaworski at the Slavic Village festival"
                     width={300}
                     height={400}
-                    className="w-full h-full object-cover"
-                    sizes="17vw"
+                    className="w-full h-auto"
+                    sizes="25vw"
                   />
                   <p className="text-label mt-1.5 text-center">
                     Mark & Dorothy
@@ -119,14 +119,14 @@ export function Heritage() {
               </ScrollReveal>
 
               <ScrollReveal delay={0.4}>
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5 h-full">
+                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
                     src="/images/dorothy-working.webp"
                     alt="Dorothy Jaworski, the Kielbasa Queen, hand-linking sausage — she worked into her 90s"
                     width={300}
                     height={400}
-                    className="w-full h-full object-cover"
-                    sizes="17vw"
+                    className="w-full h-auto"
+                    sizes="25vw"
                   />
                   <p className="text-label mt-1.5 text-center">
                     Dorothy &middot; 1926&ndash;2019
@@ -134,15 +134,15 @@ export function Heritage() {
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal delay={0.5}>
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5 h-full">
+              <ScrollReveal delay={0.5} className="col-span-2">
+                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
                     src="/images/adam-dorothy-mark-newspaper.webp"
                     alt="Adam, Dorothy and Mark Jaworski — three generations — as featured in the Cleveland newspaper"
-                    width={300}
+                    width={600}
                     height={400}
-                    className="w-full h-full object-cover"
-                    sizes="17vw"
+                    className="w-full h-auto"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <p className="text-label mt-1.5 text-center">
                     Three Generations
