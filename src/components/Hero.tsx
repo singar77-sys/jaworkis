@@ -11,8 +11,8 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/sirloin-steaks-victory-knife.webp"
-          alt="Fresh-cut sirloins with a Victory knife at Jaworski Meats — cut to order since 1935"
+          src="/images/ribeyes-victory-knife.webp"
+          alt="Five thick-cut ribeyes with a Victory knife at Jaworski Meats — cut to order since 1935"
           fill
           className="object-cover"
           priority
