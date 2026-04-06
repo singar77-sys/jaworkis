@@ -21,10 +21,21 @@ export function MeatCase() {
   return (
     <section
       id="meats"
-      className="section-padding relative z-10 bg-bg-alt/50"
+      className="section-padding relative z-10 bg-bg-alt/50 overflow-hidden"
       aria-label="Fresh meats and specialty products"
     >
-      <div className="mx-auto max-w-7xl px-6">
+      {/* Polish eagle watermark */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden="true">
+        <Image
+          src="/images/polish-eagle-crest-f.png"
+          alt=""
+          width={600}
+          height={750}
+          className="w-[500px] max-w-[60%] opacity-[0.055] grayscale"
+        />
+      </div>
+
+      <div className="mx-auto max-w-7xl px-6 relative">
         <ScrollReveal>
           <p className="text-label text-accent mb-4">Fresh Daily</p>
           <h2
