@@ -38,7 +38,7 @@ export function Hero() {
         </h1>
 
         {/* Subhead */}
-        <p className="mx-auto max-w-2xl text-base sm:text-lg md:text-xl text-fg-muted leading-relaxed mb-10">
+        <p className="mx-auto max-w-2xl text-base sm:text-lg md:text-xl text-fg/70 leading-relaxed mb-10">
           Fresh steaks, homemade kielbasa, and a deli counter that&apos;s been
           feeding Cleveland for 90 years. Still family owned. Still cutting it
           right in front of you. Still wrapping it in white butcher paper.

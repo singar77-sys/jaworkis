@@ -47,7 +47,7 @@ export function WelcomeBack() {
             },
             y: { duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] },
           }}
-          className="text-label text-tape-text tracking-widest mb-1"
+          className="text-label text-fg/70 tracking-widest mb-1"
         >
           {message}
         </motion.p>
