@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { googleReviews, reviewSummary } from "@/lib/reviews-data";
 import { ScrollReveal } from "./ScrollReveal";
@@ -41,10 +42,21 @@ export function Reviews() {
 
   return (
     <section
-      className="section-padding relative z-10"
+      className="section-padding relative z-10 overflow-hidden"
       aria-label="Customer reviews from Google"
     >
-      <div className="mx-auto max-w-4xl px-6 text-center">
+      {/* Background — grinder shelf, ghosted */}
+      <div className="absolute inset-0 pointer-events-none select-none" aria-hidden="true">
+        <Image
+          src="/images/grinder-figurine-shelf.webp"
+          alt=""
+          fill
+          className="object-cover opacity-[0.08] grayscale"
+          sizes="100vw"
+        />
+      </div>
+
+      <div className="mx-auto max-w-4xl px-6 text-center relative">
         <ScrollReveal>
           {/* Summary Badge */}
           <div className="inline-flex items-center gap-3 mb-8">
