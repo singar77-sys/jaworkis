@@ -37,7 +37,7 @@ export function Hero() {
           className="text-display text-primary leading-[0.85] mb-6"
           style={{ fontSize: "clamp(3rem, 10vw, 9rem)" }}
         >
-          Cut to Order.
+          Meating Your Needs.
           <br />
           <span className="text-fg">Since 1935.</span>
         </h1>
