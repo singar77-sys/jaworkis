@@ -27,17 +27,12 @@ export function Hero() {
         {/* Welcome Back — only renders on return visits */}
         <WelcomeBack />
 
-        {/* Label */}
-        <p className="text-label mb-6 text-accent">
-          Est. 1935 &middot; Middleburg Heights, Ohio
-        </p>
-
         {/* Headline */}
         <h1
           className="text-display text-primary leading-[0.85] mb-6"
           style={{ fontSize: "clamp(3rem, 10vw, 9rem)" }}
         >
-          Meating Your Needs.
+          Meating Your Needs
           <br />
           <span className="text-fg">Since 1935.</span>
         </h1>
