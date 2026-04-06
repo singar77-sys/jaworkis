@@ -79,7 +79,9 @@ export function Heritage() {
           </div>
 
           {/* Photo Column */}
-          <div className="space-y-8">
+          <div className="space-y-6">
+
+            {/* Fred — anchor photo */}
             <ScrollReveal delay={0.2}>
               <div className="relative">
                 <div className="absolute -top-3 left-8 z-20">
@@ -101,41 +103,46 @@ export function Heritage() {
               </div>
             </ScrollReveal>
 
+            {/* Two portraits — locked to same height */}
             <div className="grid grid-cols-2 gap-3">
               <ScrollReveal delay={0.3}>
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
-                  <Image
-                    src="/images/mark-dorothy-festival.webp"
-                    alt="Mark Jaworski and Dorothy Jaworski at the Slavic Village festival"
-                    width={300}
-                    height={400}
-                    className="w-full h-auto"
-                    sizes="25vw"
-                  />
-                  <p className="text-label mt-1.5 text-center">
-                    Mark & Dorothy
-                  </p>
+                <div className="bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
+                  <div className="relative h-52 overflow-hidden">
+                    <Image
+                      src="/images/mark-dorothy-festival.webp"
+                      alt="Mark Jaworski and Dorothy Jaworski at the Slavic Village festival"
+                      fill
+                      className="object-cover object-top"
+                      sizes="25vw"
+                    />
+                  </div>
+                  <p className="text-label mt-1.5 text-center">Mark & Dorothy</p>
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal delay={0.4}>
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
-                  <Image
-                    src="/images/dorothy-working.webp"
-                    alt="Dorothy Jaworski, the Kielbasa Queen, hand-linking sausage — she worked into her 90s"
-                    width={300}
-                    height={400}
-                    className="w-full h-auto"
-                    sizes="25vw"
-                  />
-                  <p className="text-label mt-1.5 text-center">
-                    Dorothy &middot; 1926&ndash;2019
-                  </p>
+              <ScrollReveal delay={0.35}>
+                <div className="bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
+                  <div className="relative h-52 overflow-hidden">
+                    <Image
+                      src="/images/dorothy-working.webp"
+                      alt="Dorothy Jaworski, the Kielbasa Queen, hand-linking sausage — she worked into her 90s"
+                      fill
+                      className="object-cover object-top"
+                      sizes="25vw"
+                    />
+                  </div>
+                  <p className="text-label mt-1.5 text-center">Dorothy &middot; 1926&ndash;2019</p>
                 </div>
               </ScrollReveal>
+            </div>
 
-              <ScrollReveal delay={0.5} className="col-span-2">
-                <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
+            {/* Newspaper clipping — slightly tilted, tape label */}
+            <ScrollReveal delay={0.5}>
+              <div className="relative" style={{ transform: "rotate(-0.6deg)" }}>
+                <div className="absolute -top-3 left-6 z-20">
+                  <TapeLabel rotate={0.8}>As Seen in Cleveland</TapeLabel>
+                </div>
+                <div className="bg-card border border-card-border shadow-[var(--shadow-lg)] p-2">
                   <Image
                     src="/images/adam-dorothy-mark-newspaper.webp"
                     alt="Adam, Dorothy and Mark Jaworski — three generations — as featured in the Cleveland newspaper"
@@ -144,21 +151,20 @@ export function Heritage() {
                     className="w-full h-auto"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
-                  <p className="text-label mt-1.5 text-center">
-                    Three Generations
-                  </p>
+                  <p className="text-label mt-1.5 text-center">Three Generations</p>
                 </div>
-              </ScrollReveal>
-            </div>
+              </div>
+            </ScrollReveal>
 
+            {/* Mark & Adam — full width anchor */}
             <ScrollReveal delay={0.6}>
-              <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
+              <div className="bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                 <Image
                   src="/images/mark-adam-pig-head.webp"
                   alt="Mark Jaworski and Adam at Jaworski Meats — Browns Country banner behind them"
                   width={600}
                   height={400}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <p className="text-label mt-1.5 text-center">
@@ -166,6 +172,7 @@ export function Heritage() {
                 </p>
               </div>
             </ScrollReveal>
+
           </div>
         </div>
       </div>
