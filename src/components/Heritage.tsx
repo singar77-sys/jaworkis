@@ -105,8 +105,8 @@ export function Heritage() {
               <ScrollReveal delay={0.3}>
                 <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
-                    src="/images/mark-dorothy-vintage.webp"
-                    alt="Mark Jaworski, the Kielbasa Kid, and Dorothy Jaworski, the Kielbasa Queen, at a Cleveland food festival"
+                    src="/images/mark-dorothy-festival.webp"
+                    alt="Mark Jaworski, the Kielbasa Kid, and Dorothy Jaworski, the Kielbasa Queen, at the Slavic Village festival"
                     width={300}
                     height={400}
                     className="w-full h-auto"
