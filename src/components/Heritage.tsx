@@ -26,43 +26,54 @@ export function Heritage() {
             <ScrollReveal delay={0.1}>
               <p className="text-label text-accent mb-2">1935 &mdash; Slavic Village, Cleveland</p>
               <p className="text-lg leading-relaxed text-fg-muted">
-                Fred Jaworski stood behind the counter of his small meat stand
-                in the old Newburg Market. Another ethnic market among dozens in
-                Slavic Village. But through the years, his modest stand became
-                the Grande Dame of the Polish meat market in Cleveland. Its
-                success was built on Fred&apos;s most important ingredients: hard
-                work, dedication to his customers, and family.
+                In 1935, Fred Jaworski stood behind the counter of his small meat stand in the old Newburg Market.
+                Jaworski Meats was born, another ethnic market amongst the dozens in Slavic Village. But through the
+                years, his modest meat stand became the Grande Dame of the Polish meat market Cleveland Ohio. Its
+                success is a product of Fred&apos;s most important ingredients: hard work, dedication to his customers
+                and, of course, family. Fred&apos;s wife Dorothy and their son Mark quickly became integral parts to
+                Jaworski Meats and have worked there for as long as they can remember. The market has always been
+                regarded as a part of our family. Three generations of nephews, sons and daughters have worked within
+                the venerable walls of Jaworski Meats.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
               <p className="text-lg leading-relaxed text-fg-muted">
-                Fred wore his unmistakable paper butcher hat for the final time
-                when he passed away in March of 1996. To the community, he was
-                known simply as <em className="text-primary font-medium not-italic">&ldquo;The Kielbasa King.&rdquo;</em>{" "}
-                To his family, he was a husband, a father, and a papa.
+                Fred wore his unmistakable paper butcher hat for the final time when he passed away in March of 1996.
+                To the community, Fred was known simply as <em className="text-primary font-medium not-italic">&ldquo;The Kielbasa King.&rdquo;</em>{" "}
+                To his family, he was a husband, a father and a papa. Today Jaworski Meats is owned and operated by
+                Mark Jaworski, the <em className="text-primary font-medium not-italic">&ldquo;Kielbasa Kid.&rdquo;</em>{" "}
+                Mark continues to operate under his father&apos;s principles and our establishment is more than proud
+                to meat the needs of the greater Cleveland community, continuing the family tradition. Dorothy
+                Jaworski, aka <em className="text-primary font-medium not-italic">&ldquo;The Kielbasa Queen,&rdquo;</em>{" "}
+                worked alongside the crew well into her 90&apos;s until she passed in 2019.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.3}>
               <p className="text-lg leading-relaxed text-fg-muted">
-                Today, Jaworski Meats is owned and operated by Mark Jaworski
-                &mdash; the <em className="text-primary font-medium not-italic">&ldquo;Kielbasa Kid.&rdquo;</em>{" "}
-                Dorothy Jaworski, the <em className="text-primary font-medium not-italic">&ldquo;Kielbasa Queen,&rdquo;</em>{" "}
-                worked alongside the crew well into her 90s until she passed
-                in 2019. Three generations of nephews, sons, and daughters have
-                worked within the venerable walls of Jaworski Meats.
+                Receiving multiple deliveries a week, all of our meat is fresh&mdash; steaks, ribs, chops, chicken,
+                cold cuts, cheeses. You name it. All of our specialties are homemade&mdash; kielbasa, sausages,
+                smokies, Czernina, stuffed cabbage, pierogi and even Kiszka. Check out our lunch menu, backed by a
+                deli counter full of more than just the standard fare. Our homemade roast beef, roast pork, and
+                kielbasa loaf are second to none. Or try the daily lunch special&mdash; homemade soups and unique
+                sandwich creations. And who knows what else you will find&mdash; Mark is always tucked away in the
+                back, tending to ovens and stoves, synthesizing flavors and creating new tastes that redefine the
+                idea of food.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.4}>
-              <p className="text-label text-accent mt-8">
-                1980 &mdash; Present
-              </p>
-              <p className="text-lg leading-relaxed text-fg-muted italic">
-                &ldquo;When I started with my father in 1980, I wanted to learn
-                everything from him and follow in his footsteps &mdash; and they
-                were some mighty big shoes to fill.&rdquo;
+              <p className="text-lg leading-relaxed text-fg-muted">
+                But we pride ourselves on more than just food. We offer a shopping experience you won&apos;t find in
+                any grocery store. Our walls proudly display photographs and tools of the Polish culture. We&apos;ll
+                cut your meat to order, right in front of you. And we still use white butcher paper. On
+                Saturday&apos;s, you&apos;ll hear the unmistakable sound of the old squeeze-box in stereo. But
+                don&apos;t be surprised if you hear a little Neil Young, too. Talk Browns, Indians, Buckeyes and Cavs
+                with Mark and Adam. But keep quiet if you are a Steelers, Red Sox or Michigan fan. You might
+                &lsquo;accidently&rsquo; get a thumb on the scale. We do our best to make sure folks leave our store
+                with a smile. At Jaworski&apos;s, we don&apos;t just run a business. There is a difference. To us,
+                our market is a way of life, a reflection of the proud dedication of the Jaworski name.
               </p>
             </ScrollReveal>
           </div>
