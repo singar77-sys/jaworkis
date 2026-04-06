@@ -156,22 +156,6 @@ export function Heritage() {
               </div>
             </ScrollReveal>
 
-            {/* Mark & Adam — full width anchor */}
-            <ScrollReveal delay={0.6}>
-              <div className="bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
-                <Image
-                  src="/images/mark-adam-pig-head.webp"
-                  alt="Mark Jaworski and Adam at Jaworski Meats — Browns Country banner behind them"
-                  width={600}
-                  height={400}
-                  className="w-full h-auto"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <p className="text-label mt-1.5 text-center">
-                  Mark & Adam &middot; The Next Generation
-                </p>
-              </div>
-            </ScrollReveal>
 
           </div>
         </div>
