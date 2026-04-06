@@ -19,7 +19,7 @@ export function Hero() {
           sizes="100vw"
           quality={85}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-bg/70 via-bg/50 to-bg/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-secondary/80 via-secondary/50 to-secondary/90" />
       </div>
 
       {/* Content */}
