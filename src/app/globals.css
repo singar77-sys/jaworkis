@@ -85,7 +85,7 @@ body {
   color: var(--fg);
   font-family: var(--font-body), system-ui, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
-  cursor: url('/images/cleaver-cursor.png') 4 18, auto;
+  cursor: url('/images/cleaver-cursor.svg') 3 30, auto;
 }
 
 /* --- Butcher Paper Texture --- */
