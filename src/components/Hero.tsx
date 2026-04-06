@@ -11,8 +11,8 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/ribeye-steaks-wrapped.jpg"
-          alt="Fresh-cut marbled ribeye steaks wrapped in white butcher paper at Jaworski Meats, Middleburg Heights Ohio"
+          src="/images/ribeyes-on-grill.webp"
+          alt="Thick-cut ribeye steaks hitting the grill at Jaworski Meats, seasoned and ready for Cleveland"
           fill
           className="object-cover"
           priority

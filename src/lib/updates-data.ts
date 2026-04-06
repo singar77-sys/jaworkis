@@ -35,7 +35,7 @@ export const shopUpdates: ShopUpdate[] = [
   {
     id: "2",
     text: "Party tray season is here. Graduation orders are filling up fast. Call ahead so we can get you squared away.",
-    image: "/images/deli-tray-round.jpg",
+    image: "/images/deli-tray-round.webp",
     date: "Yesterday",
     isoDate: "2026-04-03",
   },

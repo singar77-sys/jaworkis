@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     siteName: "Jaworski Meats",
     images: [
       {
-        url: "/images/mark-behind-counter.jpg",
+        url: "/images/mark-behind-counter.webp",
         width: 1200,
         height: 630,
         alt: "Mark Jaworski behind the meat counter at Jaworski Meats in Middleburg Heights, Ohio",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     title: "Jaworski Meats — Cleveland's Butcher Since 1935",
     description:
       "Three generations. Fresh cut to order. Polish kielbasa, steaks, sausage & deli.",
-    images: ["/images/mark-behind-counter.jpg"],
+    images: ["/images/mark-behind-counter.webp"],
   },
 };
 
@@ -132,7 +132,7 @@ export default function RootLayout({
                 { "@type": "OpeningHoursSpecification", dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "18:00" },
                 { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "08:00", closes: "16:00" },
               ],
-              image: "https://jaworskimeats.com/images/storefront-sign.jpg",
+              image: "https://jaworskimeats.com/images/storefront-sign.webp",
               priceRange: "$$",
               servesCuisine: ["Polish", "American", "Deli"],
               foundingDate: "1935",

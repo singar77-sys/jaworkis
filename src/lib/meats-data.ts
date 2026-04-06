@@ -41,7 +41,7 @@ export const meatCategories: MeatCategory[] = [
       "Whole Corned Beef Brisket",
     ],
     note: "Custom cuts available. Call for current prices.",
-    image: "/images/ribeye-hands-raw.jpg",
+    image: "/images/ribeye-hands-raw.webp",
   },
   {
     id: "pork",
@@ -66,7 +66,7 @@ export const meatCategories: MeatCategory[] = [
       "Tenderloin",
     ],
     note: "Spare & St. Louis ribs \u2014 call ahead. Whole pigs available by special order.",
-    image: "/images/fresh-cut-pork.jpg",
+    image: "/images/fresh-cut-pork.webp",
   },
   {
     id: "poultry",
@@ -107,7 +107,7 @@ export const meatCategories: MeatCategory[] = [
       "Smoked Polish Kielbasa",
       "Smoked Slovenian",
     ],
-    image: "/images/sausage-presentation.jpg",
+    image: "/images/sausage-presentation.webp",
   },
   {
     id: "burgers",
@@ -128,7 +128,7 @@ export const meatCategories: MeatCategory[] = [
       "Steak",
       "Sweet Onion",
     ],
-    image: "/images/burger-patties-handformed.jpg",
+    image: "/images/burger-patties-handformed.webp",
   },
   {
     id: "smokies",

@@ -4,19 +4,19 @@ import { CTAButton } from "./CTAButton";
 
 const craftPoints = [
   {
-    image: "/images/beef-primal-block.jpg",
+    image: "/images/beef-primal-block.webp",
     alt: "Whole primal beef block from Bristolville Ohio being prepared for butchering at Jaworski Meats",
     label: "Whole Primals",
     text: "Multiple deliveries a week. Sides of cattle from Bristolville, Ohio. We hang it. We break it down. Nothing comes pre-cut.",
   },
   {
-    image: "/images/band-saw-cutting.jpg",
+    image: "/images/band-saw-cutting.webp",
     alt: "Butcher cutting fresh steaks to order on the band saw at Jaworski Meats — custom thickness, right in front of you",
     label: "Cut to Order",
     text: "Tell us the thickness. We cut it right in front of you. Two-inch ribeye? Say the word.",
   },
   {
-    image: "/images/fresh-ground-closeup.jpg",
+    image: "/images/fresh-ground-closeup.webp",
     alt: "Freshly ground beef for homemade burgers and sausage at Jaworski Meats — ground in-house daily with no fillers",
     label: "Ground Daily",
     text: "Burgers, sausage, kielbasa — all ground and made in-house. Every single day. No factory. No fillers.",

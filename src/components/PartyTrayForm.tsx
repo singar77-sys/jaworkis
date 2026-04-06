@@ -150,7 +150,7 @@ export function PartyTrayForm() {
         <ScrollReveal delay={0.1}>
           <div className="mt-10 relative aspect-[4/3] sm:aspect-[16/9] max-w-2xl mx-auto overflow-hidden">
             <Image
-              src="/images/deli-tray-round.jpg"
+              src="/images/deli-tray-round.webp"
               alt="Jaworski Meats party tray — hand-fanned deli meats with Swiss, American cheese, pepperoni, and banana peppers"
               fill
               className="object-cover"

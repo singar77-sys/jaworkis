@@ -87,7 +87,7 @@ export function Heritage() {
                 </div>
                 <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow-lg)] p-2">
                   <Image
-                    src="/images/fred-sausage.jpg"
+                    src="/images/fred-sausage.webp"
                     alt="Fred Jaworski, The Kielbasa King, draped in 40 pounds of fresh homemade Polish kielbasa at the original Jaworski Meats in Cleveland Ohio"
                     width={600}
                     height={450}
@@ -105,7 +105,7 @@ export function Heritage() {
               <ScrollReveal delay={0.3}>
                 <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
-                    src="/images/mark-dorothy-vintage.jpg"
+                    src="/images/mark-dorothy-vintage.webp"
                     alt="Mark Jaworski, the Kielbasa Kid, and Dorothy Jaworski, the Kielbasa Queen, at a Cleveland food festival"
                     width={300}
                     height={400}
@@ -121,7 +121,7 @@ export function Heritage() {
               <ScrollReveal delay={0.4}>
                 <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
                   <Image
-                    src="/images/dorothy-working.jpg"
+                    src="/images/dorothy-working.webp"
                     alt="Dorothy Jaworski, the Kielbasa Queen, hand-linking sausage at Jaworski Meats — she worked into her 90s"
                     width={300}
                     height={400}
@@ -134,6 +134,22 @@ export function Heritage() {
                 </div>
               </ScrollReveal>
             </div>
+
+            <ScrollReveal delay={0.5}>
+              <div className="relative overflow-hidden bg-card border border-card-border shadow-[var(--shadow)] p-1.5">
+                <Image
+                  src="/images/mark-adam-pig-head.webp"
+                  alt="Mark Jaworski and Adam at Jaworski Meats — three generations of family in the shop, Browns banner behind them"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <p className="text-label mt-1.5 text-center">
+                  Mark & Adam &middot; The Next Generation
+                </p>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </div>

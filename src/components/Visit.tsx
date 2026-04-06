@@ -127,7 +127,7 @@ export function Visit() {
             <ScrollReveal delay={0.15}>
               <div className="relative overflow-hidden">
                 <Image
-                  src="/images/mark-behind-counter.jpg"
+                  src="/images/mark-behind-counter.webp"
                   alt="Mark Jaworski, the Kielbasa Kid, smiling behind the fresh meat counter at Jaworski Meats with ribeyes and chops on display"
                   width={700}
                   height={500}
