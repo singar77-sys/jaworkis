@@ -31,7 +31,7 @@ export function MeatCase() {
           alt=""
           width={600}
           height={750}
-          className="w-[625px] max-w-[75%] opacity-[0.055] grayscale"
+          className="w-[937px] max-w-[95%] opacity-[0.055] grayscale"
         />
       </div>
 
@@ -58,7 +58,7 @@ export function MeatCase() {
                 aria-controls={`panel-${cat.id}`}
                 className={`text-label px-4 py-2.5 min-h-[44px] border transition-all duration-200 ${
                   activeTab === cat.id
-                    ? "bg-secondary text-cta-text border-secondary dark:bg-fg-muted dark:text-bg dark:border-fg-muted"
+                    ? "bg-primary text-white border-primary"
                     : "border-border text-fg-muted hover:border-primary hover:text-primary"
                 }`}
               >
