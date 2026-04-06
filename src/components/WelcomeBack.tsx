@@ -22,7 +22,7 @@ export function WelcomeBack() {
       } else if (newCount >= 3 && newCount < 10) {
         setMessage("Good to see you again.");
       } else if (newCount >= 10) {
-        setMessage("You know the way.");
+        setMessage("Good to see you again.");
       }
       // newCount === 1 → first visit → null → render nothing
     } catch {
@@ -37,7 +37,7 @@ export function WelcomeBack() {
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="text-label text-tape-text tracking-widest mb-4"
+          className="text-label text-tape-text tracking-widest mb-1"
         >
           {message}
         </motion.p>
